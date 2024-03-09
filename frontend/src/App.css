@@ -1,3 +1,18 @@
+.team-list {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(250px, 1fr)
+  ); /* Adjust column width as needed */
+  gap: 20px; /* Adjust gap between items as needed */
+}
+.team-card {
+  background-color: #749db0; /* Example background color */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example box shadow */
+}
+
 .App {
   text-align: center;
 }
